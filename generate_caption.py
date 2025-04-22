@@ -1,3 +1,8 @@
+from huggingface_hub import login
+
+login("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")
+
+
 from PIL import Image, UnidentifiedImageError
 from transformers import BlipProcessor, BlipForConditionalGeneration
 
